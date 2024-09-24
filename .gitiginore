@@ -1,0 +1,46 @@
+# Python bytecode
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+
+# Virtual environment
+venv/
+env/
+
+# Django stuff
+db.sqlite3
+*.log
+
+# Media files
+media/
+
+# Migrations
+*/migrations/*.py
+*/migrations/*.pyc
+
+# Ignore the following directories:
+static/
+staticfiles/
+node_modules/
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# macOS system files
+.DS_Store
+
+# Environment variables
+.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Jazzmin files (optional, if needed)
+admin/css/
+admin/js/
+
+# Ignore compiled translations
+*.mo
