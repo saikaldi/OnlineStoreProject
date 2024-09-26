@@ -27,7 +27,7 @@ node_modules/
 
 # IDE-specific files
 .vscode/
-.idea/
+.idea
 
 # macOS system files
 .DS_Store
@@ -35,7 +35,7 @@ node_modules/
 # Environment variables
 .env
 
-# Jupyter Notebook checkpoints
+# Jupyter 2Notebook checkpoints
 .ipynb_checkpoints/
 
 # Jazzmin files (optional, if needed)
@@ -44,3 +44,6 @@ admin/js/
 
 # Ignore compiled translations
 *.mo
+
+# Ignore SQLite database
+db.sqlite3
