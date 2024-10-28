@@ -23,7 +23,8 @@ from config import settings
 urlpatterns = [
     # path('api-token-auth/', auth_views.obtain_auth_token),
     path("admin/", admin.site.urls),
-    path('api/v1/', include('products.urls')),
+    path('api/v1/products/', include('products.urls')),
+    path('api/v1/users/', include('users.urls')),
 ]
 
 
