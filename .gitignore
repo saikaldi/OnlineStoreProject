@@ -17,8 +17,7 @@ db.sqlite3
 media/
 
 # Migrations
-*/migrations/*.py
-*/migrations/*.pyc
+
 
 # Ignore the following directories:
 static/
