@@ -4,7 +4,7 @@
 *.pyd
 __pycache__/
 *.so
-
+.venv/
 # Virtual environment
 venv/
 env/
