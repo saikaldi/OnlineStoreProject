@@ -19,6 +19,7 @@ class Category(models.Model):
             self.slug = slugify(self.name)
         super().save(*args, **kwargs)
 
+
 # Manufacturer Model
 class Manufacturer(models.Model):
     name = models.CharField(max_length=255)
@@ -66,6 +67,7 @@ class Product(models.Model):
         if not self.slug:
             self.slug = slugify(self.name)
         super().save(*args, **kwargs)
+
 
 class Price(models.Model):
     product = models.ForeignKey(Product, on_delete=models.CASCADE, verbose_name="Продукт")
